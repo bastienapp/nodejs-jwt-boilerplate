@@ -99,6 +99,7 @@ app.post('/register', (req, res) => {
           res.status(201).json({
             id: result.insertId,
             email,
+            password: 'hidden',
           });
         }
       }
