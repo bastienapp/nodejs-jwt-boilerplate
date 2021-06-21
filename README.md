@@ -407,6 +407,7 @@ app.get('/users', (req, res) => {
       );
     }
   });
+});
 ```
 
 ## 6 - Création d'un middleware d'authentification
